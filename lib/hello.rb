@@ -1,7 +1,7 @@
 def hello_t(array)
 
   if(!block_given?)
-    return
+    return array
   end
 
   i = 0
